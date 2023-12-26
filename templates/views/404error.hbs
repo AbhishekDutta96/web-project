@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+  <body>
+    {{>navbar}}
+    <!-- Main content -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <!-- left-side div  -->
+          <div class="row">
+            <div class="col-md-12 col-12 main_header_left align-items-center">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="https://th.bing.com/th/id/R.04439f3ebfcfe9d322b1fe2a682effd9?rik=ymVZAwiKJTcIVA&riu=http%3a%2f%2fcdn.playbuzz.com%2fcdn%2f0c8d3489-4de8-4f54-8b72-663923c64d89%2f893391e9-4566-43dd-8f9e-896a0c6633fd.jpg&ehk=VXf0tppKeSx%2frT7CZkDoUJzEEpMzLq2Gz7z%2fg0mtvSA%3d&risl=&pid=ImgRaw&r=0"
+                  style="height: 300px; width: 400px"
+                  alt="Still loading"
+                  title="Abhishek Dutta"
+                />
+              </figure>
+              <p>Sorry can't able to provide you weather updates</p>
+              <h2>{{errorMsg}}</h2>
+              <a href="/"><button>Go Back</button></a>
+            </div>
+            <!-- right-side div  -->
+          </div>
+        </div>
+      </div>
+    </div>
+    {{>footer}}
+  </body>
+</html>
